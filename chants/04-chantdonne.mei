@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+basic">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Chant donné 4</title>
+            <respStmt>
+               <persName role="composer">Luigi Cherubini</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-07-27T10:49:34"/>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="e8fu8ii1">
+         <appInfo xml:id="asb8crf">
+            <application xml:id="atrne8t2" startdate="2024-07-27T10:50:23" version="1.0.14">
+               <name xml:id="nrgin5q2">mei-friend</name>
+               <p xml:id="p64do9i1">First edit by mei-friend 1.0.14, 23 May 2024.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music xml:id="mmx96x1">
+      <body xml:id="br9c9mj1">
+         <mdiv xml:id="mousvax1">
+            <score xml:id="su01avp1">
+               <scoreDef xml:id="sw64eln2">
+                  <pgHead xml:id="p3shvgm2"/>
+                  <staffGrp xml:id="spigeio2">
+                     <staffDef xml:id="sdqg5ia" keysig="1f" lines="5" meter.sym="common" n="1">
+                        <clef xml:id="ce2rnen1" line="1" shape="C"/>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <pb xml:id="p2wsmsb1"/>
+                  <measure xml:id="m1wzpq7i" n="1">
+                     <staff xml:id="m1s1" n="1">
+                        <layer xml:id="m1s1l1" n="1">
+                           <note xml:id="n1kkxh58" dur="2" oct="5" pname="c"/>
+                           <note xml:id="nqna6y6" dur="4" oct="5" pname="d"/>
+                           <note xml:id="n11990f7" dur="4" oct="4" pname="a"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1e9h4vv" n="2">
+                     <staff xml:id="m2s1" n="1">
+                        <layer xml:id="m2s1l1" n="1">
+                           <note xml:id="njnyqv1" dur="4" oct="4" pname="b">
+                              <accid xml:id="avqdsg41" accid.ges="f"/>
+                           </note>
+                           <note xml:id="n80c41z" dur="4" oct="4" pname="g"/>
+                           <note xml:id="nrl65d" dur="4" oct="5" pname="c"/>
+                           <note xml:id="nd3mms2" dur="4" oct="4" pname="b">
+                              <accid xml:id="albhh0e" accid.ges="f"/>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m7ouo68" n="3">
+                     <staff xml:id="m3s1" n="1">
+                        <layer xml:id="m3s1l1" n="1">
+                           <note xml:id="n1nhtpsk" dur="4" oct="4" pname="a"/>
+                           <note xml:id="n1avex7i" dur="4" oct="4" pname="f"/>
+                           <note xml:id="n7lj92c" dur="4" oct="4" pname="b">
+                              <accid xml:id="aka1oem2" accid.ges="f"/>
+                           </note>
+                           <note xml:id="n1ummwvq" dur="4" oct="4" pname="a"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mqpj5ao" n="4">
+                     <staff xml:id="m4s1" n="1">
+                        <layer xml:id="m4s1l1" n="1">
+                           <note xml:id="nvy7wkn" dots="1" dur="2" oct="4" pname="g"/>
+                           <beam xml:id="bbc2vrh">
+                              <note xml:id="nay20d1" dur="8" oct="4" pname="a"/>
+                              <note xml:id="n1jd2yuu" dur="8" oct="4" pname="g"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1bg39xd" n="5">
+                     <staff xml:id="m5s1" n="1">
+                        <layer xml:id="m5s1l1" n="1">
+                           <note xml:id="n8lmjdk" dur="2" oct="4" pname="f"/>
+                           <rest xml:id="r1skyzc1" dur="2"/>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
