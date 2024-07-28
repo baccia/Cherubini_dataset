@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+basic">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Sujet de Fugue 18</title>
+            <respStmt>
+               <persName role="composer">Luigi Cherubini</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-07-28T10:49:40"/>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="ex23ua">
+         <appInfo xml:id="a0vk9ei1">
+            <application xml:id="a4xeuth1" startdate="2024-07-28T10:50:31" version="1.0.14">
+               <name xml:id="n8wfvee1">mei-friend</name>
+               <p xml:id="pm04rgt2">First edit by mei-friend 1.0.14, 23 May 2024.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music xml:id="m6j39yh">
+      <body xml:id="blqqpo81">
+         <mdiv xml:id="mpn6db2">
+            <score xml:id="su7ydnk2">
+               <scoreDef xml:id="snywg0q2">
+                  <pgHead xml:id="ps3wso31"/>
+                  <staffGrp xml:id="s3i9hko1">
+                     <staffDef xml:id="s9b5yih1" lines="5" meter.sym="cut" n="1">
+                        <clef xml:id="c1px1pi2" line="3" shape="C"/>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <pb xml:id="pwn0e8m1"/>
+                  <measure xml:id="mx5k1ll" n="1">
+                     <staff xml:id="m1s1" n="1">
+                        <layer xml:id="m1s1l1" n="1">
+                           <note xml:id="n1dr1ro2" dur="1" oct="4" pname="g"/>
+                           <note xml:id="n378gfe" dur="2" oct="4" pname="f">
+                              <accid xml:id="aoyq8ml2" accid="s"/>
+                           </note>
+                           <note xml:id="n4t6haa" dur="2" oct="4" pname="f">
+                              <accid xml:id="a6gluqn1" accid="n"/>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m4xkg1h" n="2">
+                     <staff xml:id="m2s1" n="1">
+                        <layer xml:id="m2s1l1" n="1">
+                           <note xml:id="n174os00" dur="4" oct="4" pname="e"/>
+                           <note xml:id="n1gm0b4b" dur="4" oct="4" pname="d"/>
+                           <note xml:id="n16wui19" dur="4" oct="4" pname="c"/>
+                           <note xml:id="n1sje52v" dur="4" oct="3" pname="b"/>
+                           <note xml:id="n1asbbik" dur="2" oct="3" pname="a"/>
+                           <note xml:id="naqiarx" dur="2" oct="4" pname="d"/>
+                        </layer>
+                     </staff>
+                     <tie xml:id="t1x6ap4c" endid="#n7rnopn" startid="#naqiarx"/>
+                  </measure>
+                  <measure xml:id="m1nr0t9w" n="3">
+                     <staff xml:id="m3s1" n="1">
+                        <layer xml:id="m3s1l1" n="1">
+                           <note xml:id="n7rnopn" dur="2" oct="4" pname="d"/>
+                           <note xml:id="n1rxn1vj" dur="1" oct="4" pname="c"/>
+                           <note xml:id="nzgl8n1" dur="2" oct="3" pname="b"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mzcibw7" n="4" right="invis">
+                     <staff xml:id="m4s1" n="1">
+                        <layer xml:id="m4s1l1" n="1">
+                           <note xml:id="n28hh4b" dur="2" oct="4" pname="c"/>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
