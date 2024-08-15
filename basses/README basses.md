@@ -15,10 +15,10 @@
 ## Unsolved issues
 
 * In many basses Cherubini uses a crossed out 5th with a circle on top. This symbol is yet to be created, for now the circle is coded in an extra < f > element above the 5th.
-* In basse 29 Cherubini uses a crossed out 2 which is rather unusual. This basse will be checked again in the manuscript source. If it is correct a way to depict the symbol has to be found.
+* In basse 29 Cherubini uses a crossed out 2 which is rather unusual. A way to depict the symbol has to be found.
 * Basses 51, 53 and 54 are very similar. Maybe their incipits have to be longer so they can be differentiated more easily.
 * Basses 1 and 70 are very similar, their incipits only differ in the figured bass.
 
 
 ## Errata
-* Basse 57 m. 4: The last g in the bar may be an error in the edition and should be f#. This will be checked.
+* Basse 57: The last note in bar 4 is erroneously an g in Curtice's edition. It has been corrected to an f# according to the edition of Pierre, Constant: *Basses & Chants donnés aux Examens & Concours des Classes d’Harmonie & d’Accompagnement (Années 1827-1900)*. Paris: Heugel & Cie, 1900.
