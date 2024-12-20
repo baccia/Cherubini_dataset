@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0+basic">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Solfège N°11 F-Pn Ms. 1691 (1)</title>
+            <title type="subordinate"/>
+            <respStmt>
+               <persName role="composer">Luigi Cherubini</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-10-26T10:05:47"/>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="e3kqavg1">
+         <appInfo xml:id="aj1cv0f">
+            <application xml:id="afm65uc1" startdate="2024-10-26T10:06:54" version="1.0.14p">
+               <name xml:id="nyozpvd">mei-friend</name>
+               <p xml:id="pqrtd68">First edit by mei-friend 1.0.14p, 3 September 2024.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music xml:id="ml5lqst1">
+      <body xml:id="bnxdgzg">
+         <mdiv xml:id="mxk31ns2">
+            <score xml:id="sbe0hlo2">
+               <scoreDef xml:id="su5y673">
+                  <pgHead xml:id="p4caib61"/>
+                  <staffGrp xml:id="sf7kfx5">
+                     <staffDef xml:id="sit2y3b" keysig="2f" lines="5" meter.sym="common" n="1">
+                        <clef xml:id="crj6w4z1" line="2" shape="G"/>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <pb xml:id="pjwtdw81"/>
+                  <measure xml:id="m1ab0r2d" n="1">
+                     <staff xml:id="m1s1" n="1">
+                        <layer xml:id="m1s1l1" n="1">
+                           <rest xml:id="r15jv2a2" dur="2"/>
+                           <rest xml:id="rnqrrul" dur="4"/>
+                           <note xml:id="nsd9iof" dur="4" oct="4" pname="f"/>
+                        </layer>
+                     </staff>
+                     <tempo xml:id="t1shqj7e" midi.bpm="52.500000" tstamp="1.000000">Lent</tempo>
+                     <slur xml:id="srbwopp" endid="#nieimbu" startid="#nsd9iof"/>
+                  </measure>
+                  <measure xml:id="m1i2jql1" n="2">
+                     <staff xml:id="m2s1" n="1">
+                        <layer xml:id="m2s1l1" n="1">
+                           <beam xml:id="b7mila61">
+                              <note xml:id="nt81e36" dur="8" oct="4" pname="d"/>
+                              <note xml:id="nvqfyww" dur="8" oct="4" pname="f"/>
+                              <note xml:id="n1yetzpn" dur="8" oct="4" pname="b">
+                                 <accid xml:id="am0b4251" accid.ges="f"/>
+                              </note>
+                              <note xml:id="nib7agm" dur="8" oct="5" pname="c"/>
+                           </beam>
+                           <note xml:id="nieimbu" dots="1" dur="4" oct="5" pname="d"/>
+                           <note xml:id="n1o0a0rn" dur="8" oct="4" pname="b">
+                              <accid xml:id="ar8bj251" accid.ges="f"/>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1i8v67l" n="3">
+                     <staff xml:id="m3s1" n="1">
+                        <layer xml:id="m3s1l1" n="1">
+                           <note xml:id="n58r9aq" dots="1" dur="4" oct="5" pname="e">
+                              <accid xml:id="adkynmm2" accid.ges="f"/>
+                           </note>
+                           <beam xml:id="b06vvjy1">
+                              <note xml:id="n1jmuuwc" dur="32" oct="5" pname="e">
+                                 <accid xml:id="as6ld5z1" accid.ges="f"/>
+                              </note>
+                              <note xml:id="n1tfuphd" dur="32" oct="5" pname="d"/>
+                              <note xml:id="n1qequ8w" dur="32" oct="5" pname="c"/>
+                              <note xml:id="n1qwrupd" dur="32" oct="4" pname="b">
+                                 <accid xml:id="azrprtr1" accid.ges="f"/>
+                              </note>
+                           </beam>
+                           <note xml:id="n5tvwp7" dur="4" oct="4" pname="a" stem.dir="down"/>
+                           <rest xml:id="rglc0sy" dur="8" type="mscore-beam-none"/>
+                           <note xml:id="n1g2zgnm" dur="8" oct="5" pname="c"/>
+                        </layer>
+                     </staff>
+                     <tie xml:id="tk6aqom" endid="#n1jmuuwc" startid="#n58r9aq"/>
+                     <slur xml:id="s41pmjr" endid="#n5tvwp7" startid="#n1jmuuwc"/>
+                  </measure>
+                  <measure xml:id="m7dbns6" n="4">
+                     <staff xml:id="m4s1" n="1">
+                        <layer xml:id="m4s1l1" n="1">
+                           <beam xml:id="bu913b41">
+                              <note xml:id="n1wecpcr" dots="2" dur="8" oct="5" pname="d"/>
+                              <note xml:id="n1v6toqh" dur="32" oct="4" pname="b">
+                                 <accid xml:id="a4cf31n1" accid.ges="f"/>
+                              </note>
+                           </beam>
+                           <beam xml:id="bxs83hi2">
+                              <note xml:id="nurmydo" dots="2" dur="8" oct="5" pname="e">
+                                 <accid xml:id="aag3gki1" accid.ges="f"/>
+                              </note>
+                              <note xml:id="n1tvte77" dur="32" oct="5" pname="c"/>
+                           </beam>
+                           <note xml:id="n12zjobd" dur="4" oct="4" pname="b">
+                              <accid xml:id="axgl9dt1" accid.ges="f"/>
+                           </note>
+                           <note xml:id="nqxfi4g" dur="4" oct="4" pname="a" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <slur xml:id="s1e8ddcy" endid="#n1v6toqh" startid="#n1wecpcr"/>
+                     <slur xml:id="s1o529ia" endid="#n1tvte77" startid="#nurmydo"/>
+                     <slur xml:id="s1eyd1i" endid="#nuj16xd" startid="#n12zjobd"/>
+                  </measure>
+                  <sb xml:id="s43v07t2"/>
+                  <measure xml:id="mvkxs15" n="5" right="invis">
+                     <staff xml:id="m5s1" n="1">
+                        <layer xml:id="m5s1l1" n="1">
+                           <note xml:id="nuj16xd" dur="4" oct="4" pname="b">
+                              <accid xml:id="at0fuhf" accid.ges="f"/>
+                           </note>
+                           <rest xml:id="r100zxz5" dur="4"/>
+                           <rest xml:id="r13m4nn3" dur="4"/>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
