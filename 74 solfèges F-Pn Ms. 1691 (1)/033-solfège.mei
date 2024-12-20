@@ -105,7 +105,7 @@
                      <staff xml:id="m4s1" n="1">
                         <layer xml:id="m4s1l1" n="1">
                            <note xml:id="n11xat4w" dur="8" oct="4" pname="a">
-                              <artic xml:id="a1t9zm08" artic="stacc"/>
+                              <artic xml:id="a1t9zm08" artic="stroke"/>
                            </note>
                            <note xml:id="n13uylw3" dur="4" oct="4" pname="g"/>
                            <beam xml:id="brsbc8c">
